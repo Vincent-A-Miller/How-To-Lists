@@ -7,4 +7,10 @@ ls just to make sure
 
 type: fdisk -l
 
-dd if=(Name of file here) of=/dev/sdc
+dd if=(Name of file here) of=/dev/sdc (or sdb if you don't have a second hard drive/thumb drive)
+
+
+
+
+
+
