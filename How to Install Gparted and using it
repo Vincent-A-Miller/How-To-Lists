@@ -8,6 +8,16 @@ yum -y install epel-release
 
 then try #5 again.
 
+unless you can use it on CentOS:
+
+Power off and turn it back on
+
+wait for the booting up and press f12 untill boot menu
+
+choose CD
+
+choose x64 basic rescue then vestra     (I forgot the process)
+
 to delete data on your hard drive:
 
 select any undesired data and press the "x" in the cirlce and say delete.
