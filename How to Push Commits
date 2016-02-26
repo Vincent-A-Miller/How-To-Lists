@@ -16,7 +16,7 @@ git pull                           (if entered vi, see lines 21-23)
 Halfway point (if made a edition on the repo, do this processes the rest down)
 
 
-git add (repo)
+git add (repo) [you can also push any file in your Files by name
 
 type git pull
 if vi, press Esc, then tpe : (not ; there is a difference) then type q, then ! (:q!), enter
