@@ -1,0 +1,10 @@
+How to DD:
+You have to be in root
+
+cd downloads
+
+ls just to make sure
+
+type: fdisk -l
+
+dd if=(Name of file here) of=/dev/sdc
