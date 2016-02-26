@@ -1,0 +1,15 @@
+So you want to Gpart your Hard Drive:
+
+enter root (will not work if you are not in root)
+
+#yum install gparted
+(if not able)
+yum -y install epel-release
+
+then try #5 again.
+
+to delete data on your hard drive:
+
+select any undesired data and press the "x" in the cirlce and say delete.
+
+then press the green check mark icon to apply and there is no need to save it.
