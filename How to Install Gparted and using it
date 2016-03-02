@@ -20,6 +20,10 @@ choose CD
 
 choose x64 basic rescue then vestra     (I forgot the process)
 
+when you get there there will be a terminal and type "sudo -i" to get in without password.
+
+then type Gparted
+
 to delete data on your hard drive:
 
 select any undesired data and press the "x" in the cirlce and say delete.
