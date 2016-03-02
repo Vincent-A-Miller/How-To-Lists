@@ -1,0 +1,53 @@
+How to install CentOS into your new computer:
+
+when you first see the computer powering up, go crazy with the f12 key
+untill you see on the uper right corner "boot menu" or something like that.
+
+Hopefully you have the CentOS in your Thumb Drive from my "How to DD"
+
+
+go to Anaconda (don't laugh it is a real thing) [you laughed, didn't you?]
+{Install to Hard Drive}
+
+Set your time zone to Americas, Vancouver (there is no other cities 
+within the Washington area available for the settings.
+
+go choose your disk (bottom left)
+
+pick the first hard drive (A.K.A. sda1)
+if there is little to no free space for the installment, then you may
+not have done the Gparted process.
+if you did do the Gparted process and it still won't work, manually
+remove the data in the hard drive by choosing to change participants
+
+press done and you will get a menu
+
+delete all files by choosing the file and pressing the "-" icon next
+to the "+" icon
+
+then press the "+" and type /boot then type 1gib
+
+change the file type to ext3
+
+and update it at the bottom right cornor
+
+do the same process but type swap and 16gib keep the file the same
+
+one more time but just type "/" that is root then type 200gib
+
+change the file to ext4 and update
+
+say done
+
+go to host name and choose your host name you want to make.
+
+go to wired, click the option "gear" icon
+
+select IPv4 and change the address manually and press "apply"
+
+now press install on the Anaconda at the bottom right corner
+
+there will be a username and password and root password
+change the username and password, root password has to be the class's password
+
+then wait for the installation and press ok to complete it and reboot to apply all changes.
