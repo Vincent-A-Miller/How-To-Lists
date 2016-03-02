@@ -8,7 +8,9 @@ yum -y install epel-release
 
 then try #5 again.
 
-unless you can use it on CentOS:
+unless you can't use it on CentOS:
+
+then you need a SCD from Mr. Coleman
 
 Power off and turn it back on
 
