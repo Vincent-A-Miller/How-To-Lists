@@ -1,0 +1,29 @@
+Enter root
+
+type cd /home/your_username/bash/
+
+type crontab -e
+
+you might enter a vi file area in your terminal (if not I need to talk to Coleman)
+
+press I (insert)
+
+type */5****/bin/bash -|/home/your_username/bash/makelogs.sh
+
+type Esc to get out of insert mode and type "Esc :wq! to save and exit the vi
+
+now type nano makelogs.sh
+
+and type
+
+#!/bin/bash
+NOW=$(date+"%Y-%m-%d-%T");
+LOGFILE="log-$NOW.txt";
+arp -a >> /home/cwc/html/logs/$LOGFILE;
+
+press Ctrl+x and press y and enter to save and exit
+
+exit root and type chmod +x makelogs.sh
+
+return to root and type
+systemctl restart crond
