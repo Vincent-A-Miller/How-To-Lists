@@ -19,7 +19,7 @@ and type
 #!/bin/bash
 NOW=$(date+"%Y-%m-%d-%T");
 LOGFILE="log-$NOW.txt";
-arp -a >> /home/cwc/html/logs/$LOGFILE;
+arp -a (Your ip address) >> /home/user_name/html/logs/$LOGFILE;
 
 press Ctrl+x and press y and enter to save and exit
 
