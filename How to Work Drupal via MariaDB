@@ -1,0 +1,50 @@
+How to work Drupal via MariaDB
+
+first have drupal 7.43 installed and in your html file
+
+type mysql - u root -p to enter MariaDB
+
+type "show database;" the ; is required
+
+then type create database drupal;
+
+type "grant all privileges on drupal.* TO 'nameofuser'@'localhost' IDENTIFIED BY 'thepassword';"
+(you have the option to copy and past this instaed of typing the whole thing.[ remember your user and password])
+
+exit or new terminal and become root
+
+Verify Requirements:
+
+When you get to the drupal in your localhost website, there will be a 
+process in which this list will show you.
+
+
+these need to be installed inorder to work:
+- yum install php-mysql
+- yum install php
+- yum install php-gd
+- yum install php-xml
+- yum install php-dom
+- yum install mariadb
+
+then type systemctl restart httpd
+
+go to a new terminal but not as root
+
+type cd /home/username/html/drupal/sites
+
+type chmod 777 -R default/
+
+now type cd default 
+
+type cp default.settings.php settings.php
+
+then type chmod 777 settings.php
+
+Set up Database:
+
+remember line 11    ^
+                    
+database name is drupal
+
+After that, just make a profile for Drupal.
