@@ -1,0 +1,18 @@
+How to Set a nodeserver to forever
+
+enter root
+
+npm install forever -g
+(if warn, then do it anyway)
+
+exit root
+
+(be sure to be in the exapp directory
+
+forever start ./bin/www
+
+see your nodeserver if it works
+
+then close terminal
+
+if it does not work, then do it all again.

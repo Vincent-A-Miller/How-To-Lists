@@ -1,0 +1,24 @@
+How to get a nodeserver into your localhost website:
+
+enter the exapp repo in the tritech cyber security repos
+
+copy the url
+
+enter the terminal
+
+type 'git clone (the exapp repo name)
+
+type cd exapp
+
+there is a debug npm command in one of the files
+
+type 'more code_to_start_node.txt'
+
+there will be the npm command
+
+copy the shown command
+
+the port available for the nodeserver is port 3000
+
+if need more instructions or another 'how to' for your localhost
+please enter it in the comments below.

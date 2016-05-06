@@ -1,0 +1,4 @@
+
+cd exapp
+
+nohup node bin/www &
